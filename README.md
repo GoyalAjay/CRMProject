@@ -13,4 +13,4 @@ jar files, namely-  (already in the project)
     mail.jar  
     ojdbc14.jar  
     ojdbc14_g.jar  
-    I used Eclipse IDE for this project.
+I used Eclipse IDE for this project.
