@@ -9,8 +9,8 @@ tomcat v8.5 (what I used)   (change the very first port number in server.xml to 
                              <Connector connectionTimeout="60000" port="----" protocol="HTTP/1.1" redirectPort="8443"/>).
 oracleXE 10g (I'll upload the software in my repository).  
 jar files, namely-  (already in the project)  
-    activation.jar  
-    mail.jar  
-    ojdbc14.jar  
-    ojdbc14_g.jar  
+    >> activation.jar  
+    >> mail.jar  
+    >> ojdbc14.jar  
+    >> ojdbc14_g.jar  
 I used Eclipse IDE for this project.
