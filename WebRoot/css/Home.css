@@ -1,0 +1,76 @@
+body,html
+{
+	background-image:linear-gradient(to bottom left, purple, white, #4d8eff);
+	width:100%;
+	height: 100%;
+	position:absolute;
+	background-attachment: fixed;
+	top:20px;
+	
+}
+.image1
+{
+	width:100%;
+	height: 40%;
+	
+	
+}
+.img1
+{
+	width:50%; 
+	height: 10%;
+	margin-top: 1%;
+}
+
+div.p1
+{
+	font-family: comic sans MS;
+	text-align: justify;
+	font-weight: bold; 
+	margin-top: 1%;
+	word-wrap: break-word;
+}
+
+.image2
+{
+	width:100%;
+	height: 40%;
+	
+}
+
+.img2
+{
+	width:50%; 
+	height: 10%;
+	border-radius:4px;
+	margin-top: 14%;
+}
+div.p2
+{
+	width:800px;
+	margin-left: 15%;
+	font-family: comic sans MS;
+	font-weight: bold; 
+	word-wrap: break-word;
+	margin-top: -50%;
+}
+
+.img3
+{
+	width:100%; 
+	height: 50%;
+	border-radius:4px;
+}
+.img4
+{
+	width:100%; 
+	height: 50%;
+	border-radius:4px;
+}
+
+.img5
+{
+	width:100%; 
+	height: 50%;
+	border-radius:4px;
+}

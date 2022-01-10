@@ -1,0 +1,70 @@
+create table CUSTOMER
+(
+  cus_id number primary key,
+  cus_name varchar(20) not null,
+  cus_add varchar(30) not null,
+  cus_phone varchar(20) not null,
+  cus_email varchar(20) not null,
+  cus_type varchar(20) not null
+);
+
+
+
+create table COMPANY
+(
+  com_id number primary key,
+  com_name varchar(30) not null,
+  com_address varchar(30) not null,
+  com_phone varchar(20) not null
+);
+
+
+
+create table USERS
+(
+  reg_no number primary key,
+  username char(20) not null,
+  password char(20) not null,
+  email char(40) not null,
+  firstname char(20),
+  lastname char(20),
+  address varchar(40),
+  city char(20),
+  state char(20),
+  country varchar(20),
+  zip number,
+  user_type char(20),
+  mobile_no char(20)
+);
+
+create table SERVICE_DETAILS
+(
+  service_id number primary key,
+  service_name char(20) not null,
+  specification char(20) not null,
+  tech_spec char(20) not null,
+  compid number,
+  providerid number
+);
+
+create table EMPLOYEE
+(
+    e_id number primary key,
+    e_name varchar(40) not null,
+    e_mob number not null,
+    e_add varchar(100) not null,
+    e_mail varchar(40) not null,
+    e_dob varchar(30) not null,
+    e_doj varchar(30) not null,
+    e_desg varchar(30) not null
+);
+
+create table EMPLOYEE_ATTENDENCE
+(
+    ea_id number primary key,
+    e_id number not null,
+    nol number not null,
+    now number not null,
+    month varchar(20) not null,
+    year varchar(20) not null
+);

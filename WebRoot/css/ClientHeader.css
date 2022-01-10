@@ -1,0 +1,10 @@
+body,html
+{
+	background-image:linear-gradient(to bottom left, purple, white, #4d8eff);
+	width:100%;
+	height: 100%;
+	position:absolute;
+	background-attachment: fixed;
+	top:20px;
+	
+}
